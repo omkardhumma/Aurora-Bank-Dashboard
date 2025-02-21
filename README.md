@@ -1,4 +1,4 @@
-# Power BI Trends Dashboard
+# Google Trends Dashboard
 
 ## Overview
 Provide a brief introduction to your dashboard. 
