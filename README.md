@@ -24,3 +24,27 @@ The **User Information Page** provides an overview of the bank's customer base b
 - 📉 **Line Chart**: Illustrates income trends across different age groups.
 - 🏦 **Distribution Chart**: Represents income distribution by current age.
 
+# Image
+
+### Card Information Page
+
+#### Summary
+The **Card Information Page** provides insights into the bank's issued credit and debit cards. It analyzes card distribution, usage patterns, and limits to help stakeholders understand customer behavior and financial trends. This page is crucial for monitoring card issuance trends, credit utilization, and brand preferences.
+
+#### Key Performance Indicators (KPIs)
+- **Total Cards** - The total number of cards issued by the bank.
+- **Average Card Limit** - The average credit limit assigned to users.
+- **Average Age of Card** - The average duration since card issuance.
+- **High Credit Limit** - The highest credit limit granted among users.
+
+#### Visualizations
+- 📊 **Column Chart**: Displays user distribution by the year of ID issuance.
+- 🏦 **Bar Chart**: Represents ID distribution by the year of the last PIN change.
+- 📈 **Area Chart**: Shows average card limit based on the account open date.
+- 🍩 **Donut Chart**: Illustrates total cards distributed by card brand.
+- 💳 **Small Bar Chart 1**: Highlights high credit limits by card type.
+- 💳 **Small Bar Chart 2**: Highlights high credit limits by card brand.
+
+# Image
+
+
