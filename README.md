@@ -65,6 +65,16 @@ The **Transaction Information Page** provides an in-depth analysis of banking tr
 - 📊 **Bar Chart 1**: Shows total transaction value by MCC (Merchant Category Code) category.
 - 📊 **Bar Chart 2**: Shows total transaction volume by MCC category.
 
-# Iamge
+# Image
 
+
+## Conclusion  
+The **Aurora Bank Dashboard** provides valuable insights into user demographics, card distribution, and transaction trends, helping stakeholders make data-driven decisions. By leveraging interactive visualizations and key financial metrics, this dashboard enhances operational efficiency and financial oversight. 
+
+## Feedback & Support  
+If you have any questions, suggestions, or feedback, feel free to reach out:  
+📩 **Email:** omkardwork1202@gmail.com
+💼 **LinkedIn:** www.linkedin.com/in/omkardhumma
+
+Thank you for exploring the **Aurora Bank Dashboard**! ⭐ Don't forget to star this repository if you found it helpful!
 
