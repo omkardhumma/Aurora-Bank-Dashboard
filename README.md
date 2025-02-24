@@ -24,7 +24,7 @@ The **User Information Page** provides an overview of the bank's customer base b
 - 📉 **Line Chart**: Illustrates income trends across different age groups.
 - 🏦 **Distribution Chart**: Represents income distribution by current age.
 
-# Image
+![UserInfo Page](https://github.com/omkardhumma/Aurora-Bank-Dashboard/blob/master/Uinfo.png)
 
 ### Card Information Page
 
@@ -45,7 +45,7 @@ The **Card Information Page** provides insights into the bank's issued credit an
 - 💳 **Small Bar Chart 1**: Highlights high credit limits by card type.
 - 💳 **Small Bar Chart 2**: Highlights high credit limits by card brand.
 
-# Image
+![CardInfo Page](https://github.com/omkardhumma/Aurora-Bank-Dashboard/blob/master/CINFO.png)
 
 ### Transaction Information Page
 
@@ -65,7 +65,7 @@ The **Transaction Information Page** provides an in-depth analysis of banking tr
 - 📊 **Bar Chart 1**: Shows total transaction value by MCC (Merchant Category Code) category.
 - 📊 **Bar Chart 2**: Shows total transaction volume by MCC category.
 
-# Image
+![TransactionInfo Page](https://github.com/omkardhumma/Aurora-Bank-Dashboard/blob/master/TINFO.png)
 
 
 ## Conclusion  
