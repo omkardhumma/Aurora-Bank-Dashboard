@@ -47,4 +47,24 @@ The **Card Information Page** provides insights into the bank's issued credit an
 
 # Image
 
+### Transaction Information Page
+
+#### Summary
+The **Transaction Information Page** provides an in-depth analysis of banking transactions, focusing on volume, value, and potential errors. This page helps stakeholders track transaction trends, identify common issues, and optimize financial operations.
+
+#### Key Performance Indicators (KPIs)
+- **Average Transaction Value** - The average amount spent per transaction.
+- **Transaction Volume** - The total number of transactions processed.
+- **Total Transaction Value** - The total monetary value of all transactions.
+- **Transaction Errors** - The number of failed or erroneous transactions.
+
+#### Visualizations
+- 🍩 **Donut Chart**: Displays transaction volume by chip usage.
+- 🗺️ **Azure Map**: Shows a visual representation of areas where transactions have taken place.
+- 📉 **Area Chart**: Represents monthly transaction volume trends.
+- 📊 **Bar Chart 1**: Shows total transaction value by MCC (Merchant Category Code) category.
+- 📊 **Bar Chart 2**: Shows total transaction volume by MCC category.
+
+# Iamge
+
 
