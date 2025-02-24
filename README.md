@@ -16,3 +16,11 @@ The **User Information Page** provides an overview of the bank's customer base b
 - **Per Capita Income**
 - **Total Users**
 - **Average Debt-to-Income (DTI) Ratio**
+
+#### Visualizations
+- 📊 **Column Chart**: Displays total users by the number of credit cards owned.
+- 🔵 **Scatter Plot**: Shows Total DTI by yearly income and total debt.
+- 📈 **Bar Chart**: Defines total users by credit risk level.
+- 📉 **Line Chart**: Illustrates income trends across different age groups.
+- 🏦 **Distribution Chart**: Represents income distribution by current age.
+
