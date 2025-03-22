@@ -3,6 +3,18 @@
 ## Purpose
 The Aurora Bank Dashboard is an engaging business intelligence tool that enables users to analyze and visualize crucial financial metrics, customer trends, and operational performance for Aurora Bank. It delivers actionable insights to stakeholders and facilitates data-driven decision-making.
 
+## Data Model
+
+![Data Model](path_to_your_image)
+
+The above image represents the data model used in the analysis, including the following tables:
+- **Fact Transactions Table**: Contains detailed records of all financial transactions.
+- **Dimension Users Table**: Stores user information such as name, ID, and demographics.
+- **Dimension Cards Table**: Holds card-related data including card types and issuance details.
+- **Dimension MCC Codes Table**: Provides information on Merchant Category Codes (MCC) for classifying transactions.
+- **Dimension Calendar Table**: Includes date and time data to facilitate time-based analysis.
+
+
 ## Dashboard Pages and Key Insights
 
 ### Demographics Page
@@ -19,37 +31,33 @@ The **Demographics Page** overviews the bank's customer base by analyzing their 
 #### Visualizations
 
 - 📊 **Pie Chart**: Displays the distribution of clients by income group.
-
 - 🔵 **Pie Chart**: Shows the distribution of clients by credit score group.
-
 - 📈 **Clustered Column Chart**: Represents demographics based on age group, credit score, and yearly income.
+- 📉 **Column Chart**: Defines total clients by **DTI (Debt-to-Income) Category**.
+- 🏦 **Column Chart**: Illustrates total clients by **Overall Loan Risk Score Category**.
 
-- 📉 **Bar Chart**: Defines total clients by **DTI (Debt-to-Income) Category**.
 
-- 🏦 **Bar Chart**: Illustrates total clients by **Overall Loan Risk Score Category**.
+![Demographics Page]()
 
-![UserInfo Page](https://github.com/omkardhumma/Aurora-Bank-Dashboard/blob/master/Uinfo.png)
-
-### Card Information Page
+### Card Details Page
 
 #### Summary
-The **Card Information Page** provides insights into the bank's issued credit and debit cards. It analyzes card distribution, usage patterns, and limits to help stakeholders understand customer behavior and financial trends. This page is crucial for monitoring card issuance trends, credit utilization, and brand preferences.
+The **Card Details Page** provides insights into the bank's issued credit and debit cards. It analyzes card distribution, usage patterns, and limits to help stakeholders understand customer behavior and financial trends. This page is crucial for monitoring card issuance trends, credit utilization, and brand preferences.
 
 #### Key Performance Indicators (KPIs)
-- **Total Cards** - The total number of cards issued by the bank.
-- **Average Card Limit** - The average credit limit assigned to users.
-- **Average Age of Card** - The average duration since card issuance.
-- **High Credit Limit** - The highest credit limit granted among users.
+- **Visa Card** - Transaction Amount, Issued Cards, and Transaction Count (viewed in reference labels).
+- **Mastercard Card** - Transaction Amount, Issued Cards, and Transaction Count (viewed in reference labels).
+- **Discover Card** - Transaction Amount, Issued Cards, and Transaction Count (viewed in reference labels).
+- **Amex Card** - Transaction Amount, Issued Cards, and Transaction Count (viewed in reference labels).
 
 #### Visualizations
-- 📊 **Column Chart**: Displays user distribution by the year of ID issuance.
-- 🏦 **Bar Chart**: Represents ID distribution by the year of the last PIN change.
-- 📈 **Area Chart**: Shows average card limit based on the account open date.
-- 🍩 **Donut Chart**: Illustrates total cards distributed by card brand.
-- 💳 **Small Bar Chart 1**: Highlights high credit limits by card type.
-- 💳 **Small Bar Chart 2**: Highlights high credit limits by card brand.
+- 📊 **Column Chart**: Displays client card distribution by card brand.
+- 🏦 **Column Chart**: Highlights top clients with the most transaction amounts and credit limits.
+- 📈 **Column Chart**: Represents total card limit by card brand.
+- 🍩 **Pie Chart**: Shows failed transaction distribution by card brand.
 
-![CardInfo Page](https://github.com/omkardhumma/Aurora-Bank-Dashboard/blob/master/CINFO.png)
+
+![Card Details Page]()
 
 ### Transaction Information Page
 
@@ -57,19 +65,41 @@ The **Card Information Page** provides insights into the bank's issued credit an
 The **Transaction Information Page** provides an in-depth analysis of banking transactions, focusing on volume, value, and potential errors. This page helps stakeholders track transaction trends, identify common issues, and optimize financial operations.
 
 #### Key Performance Indicators (KPIs)
-- **Average Transaction Value** - The average amount spent per transaction.
-- **Transaction Volume** - The total number of transactions processed.
-- **Total Transaction Value** - The total monetary value of all transactions.
-- **Transaction Errors** - The number of failed or erroneous transactions.
+- **Transaction By Chip Used**
+- **Total Transaction Volume**
+- **Total Transaction Amount**
+- **Transaction Status**
 
 #### Visualizations
-- 🍩 **Donut Chart**: Displays transaction volume by chip usage.
-- 🗺️ **Azure Map**: Shows a visual representation of areas where transactions have taken place.
-- 📉 **Area Chart**: Represents monthly transaction volume trends.
-- 📊 **Bar Chart 1**: Shows total transaction value by MCC (Merchant Category Code) category.
-- 📊 **Bar Chart 2**: Shows total transaction volume by MCC category.
 
-![TransactionInfo Page](https://github.com/omkardhumma/Aurora-Bank-Dashboard/blob/master/TINFO.png)
+- 📊 **Matrix**: Displays the monthly time distribution of transactions.
+- 📈 **Column Chart**: Shows the total transaction amount and total transaction count by Merchant Category Code (MCC).
+- 🗺️ **Bar Chart 1**: Displays the total number of transactions by merchant state.
+- 📊 **Bar Chart 2**: Shows the total transaction count by merchant state.
+
+
+![TransactionInfo Page]()
+
+### Financial Health Page
+
+#### Summary
+The **Financial Health Page** offers a comprehensive overview of client financial standing, focusing on debt levels, risk scores, and income group distribution. This page assists stakeholders in assessing financial risks, identifying high-risk client segments, and making informed decisions.
+
+#### Key Performance Indicators (KPIs)
+- **Total Clients**
+- **Total Debt**
+- **Average Loan Risk Score**
+- **Debt to Income Ratio (DTI)**
+
+#### Visualizations
+
+- 🥧 **Pie Chart 1**: Displays the distribution of clients by income group.
+- 🥧 **Pie Chart 2**: Represents the distribution of clients by credit score group.
+- 📊 **Column Chart**: Shows the total accumulated debt by age group.
+- 📉 **Small Column Chart 1**: Displays the total accumulated debt by DTI category.
+- 📉 **Small Column Chart 2**: Represents the total accumulated debt by debt risk score.
+
+![Financial Health Page]()
 
 
 ## Conclusion  
