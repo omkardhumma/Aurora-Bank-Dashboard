@@ -5,7 +5,7 @@ The Aurora Bank Dashboard is an engaging business intelligence tool that enables
 
 ## Data Model
 
-![Data Model](path_to_your_image)
+![Data Model](https://github.com/omkardhumma/Aurora-Bank-Dashboard/blob/master/Auror_Bank_DataModel.png)
 
 The above image represents the data model used in the analysis, including the following tables:
 - **Fact Transactions Table**: Contains detailed records of all financial transactions.
