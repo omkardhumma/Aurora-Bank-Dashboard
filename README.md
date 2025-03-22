@@ -37,7 +37,7 @@ The **Demographics Page** overviews the bank's customer base by analyzing their 
 - 🏦 **Column Chart**: Illustrates total clients by **Overall Loan Risk Score Category**.
 
 
-![Demographics Page]()
+![Demographics Page](https://github.com/omkardhumma/Aurora-Bank-Dashboard/blob/master/AB_Demographics.png)
 
 ### Card Details Page
 
@@ -57,7 +57,7 @@ The **Card Details Page** provides insights into the bank's issued credit and de
 - 🍩 **Pie Chart**: Shows failed transaction distribution by card brand.
 
 
-![Card Details Page]()
+![Card Details Page](https://github.com/omkardhumma/Aurora-Bank-Dashboard/blob/master/AB_CardDetails.png)
 
 ### Transaction Information Page
 
@@ -78,7 +78,7 @@ The **Transaction Information Page** provides an in-depth analysis of banking tr
 - 📊 **Bar Chart 2**: Shows the total transaction count by merchant state.
 
 
-![TransactionInfo Page]()
+![TransactionInfo Page](https://github.com/omkardhumma/Aurora-Bank-Dashboard/blob/master/AB_Transactions.png)
 
 ### Financial Health Page
 
@@ -99,7 +99,7 @@ The **Financial Health Page** offers a comprehensive overview of client financia
 - 📉 **Small Column Chart 1**: Displays the total accumulated debt by DTI category.
 - 📉 **Small Column Chart 2**: Represents the total accumulated debt by debt risk score.
 
-![Financial Health Page]()
+![Financial Health Page](https://github.com/omkardhumma/Aurora-Bank-Dashboard/blob/master/AB_FinancialHealth.png)
 
 
 ## Conclusion  
